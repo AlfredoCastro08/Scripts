@@ -11,7 +11,10 @@ yum install iptables-services -y
 yum install dhcp -y
 
 #INSTALLAR SSH
-yum instal opnessh-server.x86_64 -y 
+yum install opnessh-server.x86_64 -y 
+
+#INSTALAR APACHE
+yum install httpd
 
 #INSTALL NET-TOOLS 
 yum instal net-tools -y 
