@@ -24,5 +24,10 @@ yum install htop -y
 
 yum install top -y
 
+#INSTALAR CRON 
+yum install cron -y
+
 #ACTUALIZAR 
 yum update -y
+
+#NOTA:La primera vez que usemos cron se debe poner el comando crontab -e
