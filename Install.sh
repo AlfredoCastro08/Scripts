@@ -27,6 +27,9 @@ yum install htop -y
 
 yum install top -y
 
+#INSTALAR VSFTPD
+yum install vsftpd.x86_64 -y
+
 #INSTALAR CRON 
 yum install cron -y
 
