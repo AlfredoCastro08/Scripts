@@ -33,6 +33,12 @@ yum install vsftpd.x86_64 -y
 #INSTALAR CRON 
 yum install cron -y
 
+#INATALAR SSL
+yum install openssl.x86_64 -y 
+
+#INSTALAR SAMBA
+yum install samba.x86_64 -y
+
 #ACTUALIZAR 
 yum update -y
 
