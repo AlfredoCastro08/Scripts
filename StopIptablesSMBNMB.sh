@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#AC 09/072019
 systemctl stop iptables
 echo "IPTABLES STOPED"
 systemctl stop smb
