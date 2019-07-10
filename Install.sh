@@ -7,6 +7,9 @@
 #INSTALAR IPTABLES 
 yum install iptables-services -y
 
+#INSTALAR VIM
+yum install vim -y
+
 #INSTALAR DHCP
 yum install dhcp -y
 
