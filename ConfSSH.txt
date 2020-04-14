@@ -1,0 +1,71 @@
+################################################################################################
+ESTA CONFIGURACIÓN ME PUEDE SERIVR PARA OTRAS CONEXIONES CON SSH, QUITANDO LAS REGLAS DE IPTABLES
+################################################################################################
+
+-->CON PUTTY ENTRAR COMO USUAIRO SIN PRIVILEGIOS Y A LA CARPETA DE ADMIN<--
+
+su admin <-- ESTO ES PARA ROOT+
+
+TODO SE DEBE DE CREAR COMO USARIO SIN PRIVILEGIOS
+
+cd /home/admin 
+
+-->CREAR UN CARPETA OCULTA Y DARLE PREMISOS <--
+
+mkdir .ssh
+
+chmod 0700 .ssh/
+
+-->GENERAR LA LLAVE PUBLICA Y PRIVADA, GUARDARLAS EN EL ESCRITORIO DE WIN<--
+
+Inicar sesión como el usurio sin privilegios, y hacer los siguientes
+pasos
+
+-->DENTRO DE ESA CARPETA CREAR Y DAR PERMISOS<--
+
+touch authorized_keys
+
+chmod -R 600 authorized_keys
+
+pegar lo que la llave publica en el archivo author y borrar lo ultimo 
+
+ctrl+shitfIzq+v
+
+borrar lo de rsa
+
+agregar despues de == o /UUT admin@localhost
+
+--EDITAR SSHD.CONFIG<-- ver bien que viene por defecto
+
+cd /etc/ssh/
+
+cp sshd_config sshd_config.bak
+
+vim sshd_config
+
+quitar el # a
+
+Port 22
+
+ListenAddress 0.0.0.0
+
+LoginGraceTime 15s
+PermitRootLoin no
+StricModes yes
+MaxAuthTries 2
+MaxSessions 2
+
+IgnoreRhostr yes
+PubkeyAuthentication yes
+
+PasswordAuthnitcaction yes
+
+systemctl reload sshd 
+
+-->CREAR UNA SESIÓN SON PUTTY<--
+
+agregar la ip x.x.x.x
+
+ir a ssh luego en Auth y no moverme a ningun lado 
+
+darle en browse y buscar la llave privada
