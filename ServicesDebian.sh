@@ -6,4 +6,4 @@
 
 #Servicios a instalar en Debian 
 
-dkms module-assistant build-essential git net-tools htop vim openssh-server -y 
+dkms module-assistant build-essential git net-tools htop vim openssh-server.x86_64 -y 
