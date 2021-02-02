@@ -1,0 +1,111 @@
+Dominio para nuevo Servidor
+	LamsaTor
+
+Ip para Zentyal 
+	10.0.0.3
+
+	
+--Tesoreria	13
+	-Ma Luisa Olivo
+	-Adriana Mu�oz
+	-Diana Aguilera
+--Contabilidad 	15
+	-Martha Alvarado
+	-Karla Medrano
+	-Sujey Martinez
+--Fiscal	14
+	-Fernando Davila
+	-Krystal Alvarado
+	-Hilda Villanueva
+	-Andrea Cisneros
+	-Jorge Mu�oz Hernandez
+	-Alejandra Saenz
+--Sistemas	16
+	-Hermilo Garcia
+	-Joseline Ortiz
+	-Roberto de la Rosa
+--Auditoria	1
+	-Alejandro Hernandez
+	-Gerardo Martinez
+	-Leonel Torres
+	-Ivan Castor
+	-Jesus Alvarado
+	-Alberto Avila
+	-Isaias Cerrillo
+	-Raul de la Garza
+	-Manuel Najera
+	-Jose Luis Gallegos
+	-Carlos Huerta
+	-Luis Fuentes
+	-Alfredo Ortega
+--Nominas	17
+	-Alejandro Lara
+	-Gloria Mora
+	-Manuel Torres
+	-Diana Vazquez
+--Servicio	3
+	-Jorge Jeronimo
+	-Manuel Zarate
+	-Nestor Pacheco
+	-Laura Martinez
+	-Silvia Perez
+	-Claudia Garcia
+	-Armando Reveles
+--Recursos Humanos	9 
+	-Emmanuel Andrade
+	-Javier Contreras
+	-Sebastian Torres
+--Marketing	5
+	-Fernando Villalobos
+	-Fernanda Prado
+	-Andrea Gonzalez
+--DivCentral	4
+	-Humberto Garcia
+	-Veronica Ortiz
+--Credito	11
+	-Jose Casta�eda
+	-Monica Lopez
+	-Eduardo Rodriguez
+	-Emmanuel Perez
+	-Miguel Gonzalez
+	-Leonel Macias
+--Cartera	12
+	-Rayo Garcia
+	-Sandra Salas
+	-Wendy del Castillo
+--Riegos	6
+	-Hipolito Hernandez
+	-Claudia Martinez
+	-Estefania Cisneros
+	-Lourdes de la Torre
+	-Ivan Vielma
+	-Felipe Gonzalez
+	-Jorge Mu�oz
+	-Armando Nahle
+--Semillas	7
+	-Antonio Velazquez
+	-Paola Deraz
+	-Salua Villalobos
+	-Juan Sanchez
+	-Daniel Ordu�a
+--Maquinaria	8
+	-Hernan Fonseca
+	-Lorena Mora
+	-Antonio Garcia
+	-Karen Brice�o
+--AMS	2
+	-Fernando Gonzalez
+	-Manuel Aguilera
+	-Ernesto Moreno
+--Refacciones	10
+	-Miguel Campos
+	-Diana Cortes
+	-Cristina Fuentes
+	-Perla Meza
+	-Roberto Hernandez
+	-Itzel Gonzalez
+	-Edwin Perez
+	-Edgar Lopez
+--Comite	18
+	-Luis Sanchez
+	-Fernando Sanchez
